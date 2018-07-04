@@ -28,7 +28,7 @@ def main():
     parser.add_argument('--beam_size', type=int, default=3,
                         help='beam search size')
     parser.add_argument('--prime', type=str,
-                        default='xin dung lang thang trong tam tri mit mu tam toi cua anh nua <eos>')
+                        default='chia tay me di buc ca minh')
     parser.add_argument('--saved_args_path', type=str, default="./ckpt_blog_td2/args.pkl")
 
     args = parser.parse_args()
