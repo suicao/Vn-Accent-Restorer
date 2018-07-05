@@ -2,6 +2,8 @@
 
 This project applies multiple deep learning models to the pointless problem of restoring diacritical marks to sentences in Vietnamese.
 
+This is a work in progress.
+
 E.g: ```do an dem trang beo``` → ```đồ ăn đêm trang béo```
 
 ## Beamsearch and Language Model
