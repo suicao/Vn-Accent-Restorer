@@ -1,2 +1,6 @@
-model_checkpoint_path: "model_epoch_01_gs_15198"
-all_model_checkpoint_paths: "model_epoch_01_gs_15198"
+model_checkpoint_path: "model_epoch_06_gs_60792"
+all_model_checkpoint_paths: "model_epoch_02_gs_30396"
+all_model_checkpoint_paths: "model_epoch_03_gs_37995"
+all_model_checkpoint_paths: "model_epoch_04_gs_45594"
+all_model_checkpoint_paths: "model_epoch_05_gs_53193"
+all_model_checkpoint_paths: "model_epoch_06_gs_60792"
