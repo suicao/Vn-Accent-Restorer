@@ -93,7 +93,7 @@ def main():
                     if cleared not in ref:
                         ref.append(cleared)
                 words = basic_tokenizer(args.prime)
-                feed_x = np.asarray([ref.index(w) for w in words])
+                feed_x = np.asarray([ref.index(w) if w in word2idx else ref.index("<unk>") for w in words])
                 feed_x = np.atleast_2d(
                     np.lib.pad(feed_x, [0, saved_args.maxlen - len(feed_x)], 'constant', constant_values=pad_idx))
                 feed = {model.x: feed_x}
